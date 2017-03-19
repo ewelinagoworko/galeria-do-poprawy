@@ -1,13 +1,40 @@
+#gallery {
+	width: 100%;
+}
 
-
-.figure img {
-	float: left;
-	padding: 15px;
+figure {
+	width: 30%;
 }
 
 
+
+
+@media (max-width: 768px) {
+	figure {
+		width: 90%;
+	}
+}
+
+
+
+@media (min-width: 769px) and (max-width: 992px) {
+	figure {
+		width: 45%;
+	}
+}
+
+
+@media (min-width: 993px) {
+	#gallery {
+		width: 100%;
+	}
+}
+
 @media (max-width: 480px) {
-	.figure img {
+	#gallery {
+		width: 100%;
+	}
+	figure {
 		width: 100%;
 	}
 }
